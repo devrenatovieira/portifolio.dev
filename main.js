@@ -129,7 +129,9 @@ document.addEventListener("keydown", (event) => {
 });
 
 const canvas = document.querySelector("#neural-canvas");
-if (canvas) {
+const isMobile = window.matchMedia("(max-width: 900px)").matches;
+
+if (canvas && !isMobile) {
   const ctx = canvas.getContext("2d");
   const particleCount = 90;
   const particles = [];
