@@ -52,6 +52,27 @@ body {
   user-select: text;
 }
 
+body.is-loading main,
+body.is-loading .site-header,
+body.is-loading .site-footer {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+main,
+.site-header,
+.site-footer {
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main,
+  .site-header,
+  .site-footer {
+    transition: none;
+  }
+}
+
 body[data-theme="dark"] {
   background: radial-gradient(circle at top, #1a2028 0%, var(--bg) 45%, #0c0f14 100%);
 }

@@ -61,6 +61,10 @@ if (themeToggle) {
   });
 }
 
+window.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.remove("is-loading");
+});
+
 if (contactForm) {
   contactForm.addEventListener("submit", async (event) => {
     event.preventDefault();
