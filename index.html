@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Frontend | Renato Vieira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="neural-canvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand__mark">RV</span>
+        <span class="brand__name">Renato Vieira | Dev</span>
+      </div>
+      <nav class="site-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Alternar tema">
+          <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+        </button>
+        <a class="cta" href="#contato">Vamos conversar</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="topo">
+        <div class="hero__content">
+          <p class="kicker">Desenvolvedor Frontend</p>
+          <h1>
+            Interfaces modernas e funcionais para produtos reais.
+          </h1>
+          <p class="hero__lead">
+            Desenvolvedor Frontend com foco em React, React Native e JavaScript,
+            criando experiencias orientadas ao usuario. Mais de 2 anos de
+            atuacao em projetos corporativos com integracao a APIs e Firebase.
+          </p>
+          <div class="hero__actions">
+            <a
+              class="btn btn--primary"
+              href="https://wa.me/5592984910584?text=Oi%20Renato!%20Vi%20seu%20portfolio%20e%20quero%20fazer%20um%20orcamento."
+              target="_blank"
+              rel="noopener"
+            >
+              Fazer orçamento agora
+            </a>
+            <a class="btn btn--ghost" href="#projetos">Ver projetos</a>
+            <a class="btn btn--ghost" href="curriculorenato.pdf" download>
+              Baixar CV
+            </a>
+          </div>
+          <div class="hero__meta">
+            <div>
+              <span class="meta__label">Base</span>
+              <strong>Brasil, remoto</strong>
+            </div>
+            <div>
+              <span class="meta__label">Especialidade</span>
+              <strong>React e React Native</strong>
+            </div>
+            <div>
+              <span class="meta__label">Disponivel</span>
+              <strong>Projetos freelance</strong>
+            </div>
+          </div>
+        </div>
+        <div class="hero__card">
+          <div class="hero__card-inner">
+            <p class="card__title">Stack principal</p>
+            <ul class="stack">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>React Native</li>
+            </ul>
+            <div class="card__footer">
+              <span>Ultima entrega</span>
+              <strong>Aplicativo com Firebase</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="section__header">
+          <p class="kicker">Sobre mim</p>
+          <h2>Eu transformo problemas complexos em interfaces simples.</h2>
+        </div>
+        <div class="about">
+          <div class="about__content">
+            <p>
+              Desenvolvedor Frontend com foco em React, React Native e
+              JavaScript, criando interfaces modernas, funcionais e orientadas
+              a experiencia do usuario. Atuo em projetos corporativos e
+              aplicacoes reais, com integracao a APIs e Firebase.
+            </p>
+            <p>
+              Experiencia pratica: mais de 2 anos em desenvolvimento e TI, com
+              base solida em ambientes corporativos e processos tecnicos.
+            </p>
+            <div class="about__stats">
+              <div>
+                <strong>2+</strong>
+                <span>anos de experiencia</span>
+              </div>
+              <div>
+                <strong>5+</strong>
+                <span>clientes corporativos</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>foco em UX</span>
+              </div>
+            </div>
+          </div>
+          <div class="about__photo">
+            <img
+              src="images/dev.renato.png"
+              alt="Renato Vieira"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="curiosidades">
+        <div class="section__header">
+          <p class="kicker">Curiosidades</p>
+          <h2>Curiosidades sobre mim 👋</h2>
+        </div>
+        <div class="curiosities">
+          <article>
+            <p>
+              🎨 Sou desenvolvedor Frontend, apaixonado por transformar ideias
+              em interfaces bonitas, funcionais e intuitivas.
+            </p>
+          </article>
+          <article>
+            <p>
+              💻 Trabalho principalmente com React, React Native, JavaScript,
+              HTML e CSS, sempre buscando codigo limpo e reutilizavel.
+            </p>
+          </article>
+          <article>
+            <p>
+              📱 Tenho experiencia criando aplicacoes web e mobile, incluindo
+              telas de login, dashboards, fluxos de autenticacao e layouts
+              corporativos.
+            </p>
+          </article>
+          <article>
+            <p>
+              🧠 Me preocupo muito com experiencia do usuario (UX) e design
+              responsivo — cada detalhe importa.
+            </p>
+          </article>
+          <article>
+            <p>
+              ⚡ Gosto de interfaces rapidas, animacoes suaves e interacoes que
+              fazem sentido para quem usa.
+            </p>
+          </article>
+          <article>
+            <p>
+              🏢 Ja atuei em ambientes corporativos, o que me deu visao de
+              padroes, organizacao e consistencia visual em produtos reais.
+            </p>
+          </article>
+          <article>
+            <p>
+              🚀 Curiosidade extra: costumo pensar o layout antes do codigo,
+              para entregar interfaces mais coesas e profissionais.
+            </p>
+          </article>
+          <article>
+            <p>
+              🔥 Estou sempre explorando novas ideias de design, animacoes e
+              efeitos visuais para evoluir como Frontend.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section__header">
+          <p class="kicker">Skills</p>
+          <h2>Principais linguagens e tecnologias que domino.</h2>
+        </div>
+        <div class="skills">
+          <article>
+            <h3>Frontend core</h3>
+            <p>
+              HTML5, CSS3, JavaScript (ES6+), TypeScript (basico/intermediario),
+              React.js, React Native, Next.js.
+            </p>
+          </article>
+          <article>
+            <h3>Backbone de produto</h3>
+            <p>
+              Firebase (Auth, Firestore, Functions), REST APIs, Git, GitHub.
+            </p>
+          </article>
+          <article>
+            <h3>Performance e qualidade</h3>
+            <p>
+              UI/UX basico, layouts modernos, responsividade, boas praticas.
+            </p>
+          </article>
+          <article>
+            <h3>Outras bases</h3>
+            <p>Suporte tecnico, sistemas internos, noção de backend.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section clients" id="clientes">
+        <div class="section__header">
+          <p class="kicker">Clientes</p>
+          <h2>Marcas que confiaram no meu trabalho.</h2>
+        </div>
+        <div class="logo-marquee" aria-label="Logos de clientes">
+          <div class="logo-track">
+            <div class="logo-item">
+              <img
+                src="images/alphadev.png"
+                alt="Alpha Dev"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/transire.logo.webp"
+                alt="Transire Eletronicos"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/tectoy.logo-Photoroom.png"
+                alt="Tectoy"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/amazonasinovare.logo.png"
+                alt="Amazonas Inovare"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/thecheflogo.png"
+                alt="The Chef"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/victumlogo.png"
+                alt="Victum"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </div>
+          <div class="logo-track" aria-hidden="true">
+            <div class="logo-item">
+              <img
+                src="images/alphadev.png"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/transire.logo.webp"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/tectoy.logo-Photoroom.png"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/amazonasinovare.logo.png"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/thecheflogo.png"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="logo-item">
+              <img
+                src="images/victumlogo.png"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projetos">
+        <div class="section__header">
+          <p class="kicker">Projetos em destaque</p>
+          <h2>Projetos reais e estudos que moldaram minha carreira.</h2>
+        </div>
+        <div class="projects">
+          <article class="project">
+            <div class="project__header">
+              <h3>Cardapio Digital para Restaurantes</h3>
+              <span>Pessoal</span>
+            </div>
+            <p>
+              Layouts modernos para exibicao de pratos, imagens e descricoes
+              claras, com foco em UX e responsividade.
+            </p>
+            <div class="project__tags">
+              <span>React</span>
+              <span>Next.js</span>
+              <span>JavaScript</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Checklist Operacional Transire</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              Sistema de processos internos com etapas, validacoes por acesso e
+              acompanhamento de atividades.
+            </p>
+            <div class="project__tags">
+              <span>React Native</span>
+              <span>Expo Router</span>
+              <span>Firebase</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Aura ID</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              Autenticacao por QR Code com consulta de dados e confirmacao de
+              acesso, substituindo processos manuais.
+            </p>
+            <div class="project__tags">
+              <span>QR Code</span>
+              <span>Backend</span>
+              <span>Seguranca</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Sistema de Cautela de Materiais</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              Controle de retirada e devolucao de equipamentos com historico,
+              rastreabilidade e responsaveis definidos.
+            </p>
+            <div class="project__tags">
+              <span>Controle de ativos</span>
+              <span>Auditoria</span>
+              <span>Processos</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Inovare Login / Aura Login</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              Autenticacao por matricula ou QR Code com confirmacao de presenca
+              e fluxo simples para eventos e empresas.
+            </p>
+            <div class="project__tags">
+              <span>Autenticacao</span>
+              <span>QR Code</span>
+              <span>Fluxos</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>ChecklistTransire</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              Sistema de checklist para ambientes industriais, com validacoes
+              por funcao e padronizacao de etapas.
+            </p>
+            <div class="project__tags">
+              <span>Processos</span>
+              <span>Padroes</span>
+              <span>Auditoria</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Projetos Experimentais (UI e Animacoes)</h3>
+              <span>Pessoal</span>
+            </div>
+            <p>
+              Estudos de UI/UX, microinteracoes, transicoes suaves e layouts
+              premium para elevar o visual.
+            </p>
+            <div class="project__tags">
+              <span>UI/UX</span>
+              <span>Animacoes</span>
+              <span>Front</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Tectoy S.A.</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              Experiencia em TI com suporte tecnico, manutencao de sistemas e
+              apoio a infraestrutura em ambiente corporativo.
+            </p>
+            <div class="project__tags">
+              <span>Suporte</span>
+              <span>Infraestrutura</span>
+              <span>Processos</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Trabalhos Escolares Digitais (SESI)</h3>
+              <span>Pessoal</span>
+            </div>
+            <p>
+              Projetos de organizacao e apresentacao de conteudos, fortalecendo
+              escrita tecnica e comunicacao clara.
+            </p>
+            <div class="project__tags">
+              <span>Pesquisa</span>
+              <span>Apresentacao</span>
+              <span>Organizacao</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Introducao a Programacao (Java)</h3>
+              <span>Pessoal</span>
+            </div>
+            <p>
+              Base de logica, condicionais e loops, formando raciocinio para
+              evoluir em outras linguagens.
+            </p>
+            <div class="project__tags">
+              <span>Java</span>
+              <span>Logica</span>
+              <span>Estruturas</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Aprendizado Web (Inicio no Frontend)</h3>
+              <span>Pessoal</span>
+            </div>
+            <p>
+              Sites simples para aprender HTML, CSS, semantica e responsividade
+              com boas praticas.
+            </p>
+            <div class="project__tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsivo</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>JavaScript Basico</h3>
+              <span>Pessoal</span>
+            </div>
+            <p>
+              Validacoes, manipulacao de DOM e eventos para consolidar base
+              antes dos frameworks.
+            </p>
+            <div class="project__tags">
+              <span>JS</span>
+              <span>DOM</span>
+              <span>Eventos</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Frontend Moderno (React / Next.js)</h3>
+              <span>Pessoal</span>
+            </div>
+            <p>
+              Componentes reutilizaveis, estados, props e layouts escalaveis
+              para interfaces modernas.
+            </p>
+            <div class="project__tags">
+              <span>React</span>
+              <span>Next.js</span>
+              <span>UI</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Telas de Login Premium</h3>
+              <span>Pessoal</span>
+            </div>
+            <p>
+              Interfaces com animacoes, microinteracoes e visual sofisticado,
+              focadas em experiencia de usuario.
+            </p>
+            <div class="project__tags">
+              <span>UI/UX</span>
+              <span>Animacoes</span>
+              <span>Design</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Front Cadaut (Consulta por Matricula)</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              App mobile para consulta de usuarios por matricula, exibindo dados
+              e confirmacao de presenca.
+            </p>
+            <div class="project__tags">
+              <span>Mobile</span>
+              <span>Consulta</span>
+              <span>Presenca</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Aura ID Mobile</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              Versao mobile com leitura de QR Code, exibicao de dados e
+              confirmacao em tempo real.
+            </p>
+            <div class="project__tags">
+              <span>React Native</span>
+              <span>QR Code</span>
+              <span>Mobile</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>ChecklistTransire Mobile</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              Checklist em campo com navegacao fluida, persistencia de dados e
+              controle de processos no celular.
+            </p>
+            <div class="project__tags">
+              <span>React Native</span>
+              <span>Processos</span>
+              <span>Mobile</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Autenticacao Firebase</h3>
+              <span>Corporativo</span>
+            </div>
+            <p>
+              Login, controle de sessao, reset de senha e regras de seguranca
+              para sistemas corporativos.
+            </p>
+            <div class="project__tags">
+              <span>Firebase</span>
+              <span>Seguranca</span>
+              <span>Auth</span>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__header">
+              <h3>Super App (Rede Social Conceitual)</h3>
+              <span>Pessoal</span>
+            </div>
+            <p>
+              Projeto conceitual unificando recursos de varias plataformas,
+              pensando em produto, monetizacao e escalabilidade.
+            </p>
+            <div class="project__tags">
+              <span>Produto</span>
+              <span>UX</span>
+              <span>Escala</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contato">
+        <div class="section__header">
+          <p class="kicker">Contato</p>
+          <h2>Vamos criar algo grande juntos.</h2>
+        </div>
+        <div class="contact">
+          <div>
+            <p>
+              Tem um projeto em mente? Me chama e eu respondo rapido com um
+              plano claro.
+            </p>
+            <div class="contact__details">
+              <a href="mailto:dev.renatovieira@gmail.com?subject=Contato%20pelo%20portfolio">
+                dev.renatovieira@gmail.com
+              </a>
+              <a href="https://www.linkedin.com/in/devrenatovieira/" target="_blank" rel="noopener">
+                LinkedIn / devrenatovieira
+              </a>
+              <a
+                href="https://wa.me/5592984910584?text=Oi%20Renato!%20Vi%20seu%20portfolio%20e%20quero%20falar%20sobre%20um%20projeto."
+                target="_blank"
+                rel="noopener"
+              >
+                WhatsApp / (92) 98491-0584
+              </a>
+            </div>
+          </div>
+          <form
+            class="contact__form"
+            action="https://formspree.io/f/mpqqaqlb"
+            method="POST"
+            id="contact-form"
+          >
+            <div class="form-overlay" aria-hidden="true">
+              <span class="form-overlay__text">Mensagem enviada</span>
+            </div>
+            <label>
+              Nome
+              <input type="text" name="name" placeholder="Seu nome" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="Seu email" required />
+            </label>
+            <label>
+              Mensagem
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Conte sobre seu projeto"
+                required
+              ></textarea>
+            </label>
+            <button class="btn btn--primary" type="submit">
+              Enviar mensagem
+            </button>
+            <div class="form-feedback" aria-live="polite">
+              <p class="form-status" id="form-status"></p>
+              <span class="plane" aria-hidden="true">
+                <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+                  <path
+                    d="M6 30.5 58 12l-16.5 40-9-16.5L6 30.5Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Feito com cuidado e foco em performance.</p>
+      <a href="#topo">Voltar ao topo</a>
+    </footer>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/5592984910584?text=Oi%20Renato!%20Vi%20seu%20portfolio%20e%20quero%20falar%20sobre%20um%20projeto."
+      target="_blank"
+      rel="noopener"
+      aria-label="Abrir conversa no WhatsApp"
+    >
+      WhatsApp
+    </a>
+
+    <script src="main.js"></script>
+  </body>
+</html>
