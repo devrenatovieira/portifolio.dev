@@ -38,8 +38,6 @@ const formStatus = document.querySelector("#form-status");
 const formFeedback = document.querySelector(".form-feedback");
 let statusTimeout;
 const themeToggle = document.querySelector(".theme-toggle");
-const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
-
 const applyTheme = (theme) => {
   document.body.dataset.theme = theme;
   localStorage.setItem("theme", theme);
@@ -51,7 +49,7 @@ const initTheme = () => {
     applyTheme(savedTheme);
     return;
   }
-  applyTheme(prefersDark.matches ? "dark" : "light");
+  applyTheme("dark");
 };
 
 initTheme();
