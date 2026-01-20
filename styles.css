@@ -530,6 +530,11 @@ body[data-theme="dark"] .hero__card {
   --logo-offset: -35px;
 }
 
+.logo-item.logo--carter {
+  width: 390px;
+  height: 190px;
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
