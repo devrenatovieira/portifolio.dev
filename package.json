@@ -1,0 +1,19 @@
+{
+  "name": "portifolio.dev",
+  "version": "1.0.0",
+  "description": "Portfolio de Renato Vieira - Frontend e Backend",
+  "main": "frontend/index.html",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:seed": "cd backend && npm run seed"
+  },
+  "keywords": ["portfolio", "react", "vite", "express", "mongodb"],
+  "author": "Renato Vieira",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
